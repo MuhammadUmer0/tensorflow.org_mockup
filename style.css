@@ -8,7 +8,7 @@
   --grey: #425066;
   --searchBg: #E8EAED;
   --btnLearnMoreBg: linear-gradient(to right, #ff6f00, #ff9100);
-  --btnLearnMoreBgHover: #ff9100;
+  --orange: #ff9100;
 }
 header {
   height: 48px;
@@ -103,7 +103,7 @@ button{
     margin-left: 1em;
 }
 .learnMore:hover{
-    background-color: var(--btnLearnMoreBgHover);
+    background-color: var(--orange);
 }
 main{
     height: 643px;
@@ -140,4 +140,36 @@ main h1{
     height: 260px;
     background-color: white;
     border-radius: 10px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    height: 200px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--grey);
+}
+h1{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.about p {
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: var(--grey);
+}
+a:hover{
+    color: var(--orange);
 }
