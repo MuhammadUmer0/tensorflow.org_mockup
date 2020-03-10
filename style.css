@@ -3,3 +3,12 @@
     padding: 0;
     font-family: roboto;
 }
+:root{
+    --headerBoxShadow: #aaaaaa;
+}
+header{
+    height: 48px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 5px 5px 5px var(--headerBoxShadow);
+}
