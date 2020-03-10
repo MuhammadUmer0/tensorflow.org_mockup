@@ -5,6 +5,7 @@
 }
 :root{
     --headerBoxShadow: #aaaaaa;
+    --navColor: #425066;
 }
 header{
     height: 48px;
@@ -21,15 +22,25 @@ header img{
     width: 143px;
 }
 nav{
+    height: 48px;
     width: 85%;
-    background-color: yellowgreen;
 }
 ul{
+    height: 48px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 li{
     list-style-type: none;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
 }
-
+nav a{
+    color: var(--navColor);
+    text-decoration: none;
+}
+li a:hover{
+  border-bottom: 3px solid var(--navColor);  
+}
