@@ -11,4 +11,25 @@ header{
     width: 100%;
     background-color: white;
     box-shadow: 5px 5px 5px var(--headerBoxShadow);
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+header img{
+    height: 32px;
+    width: 143px;
+}
+nav{
+    width: 85%;
+    background-color: yellowgreen;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+}
+
