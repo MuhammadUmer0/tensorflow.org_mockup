@@ -216,31 +216,72 @@ a:hover{
 }
 .problems{
     height: 600px;
-    width: 80%;
+    width: 92%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--orange);
     margin-top: 2em;
 }
 .problemsRow{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 3em; 
+}
+.problemsRow a:hover{
+    box-shadow: 20px 20px 10px 10px var(--headerBoxShadow);
 }
 .problemsCol{
-    height:450px;
-    width: 400px;
+    height:428px;
+    width: 396px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
     background-color: white;
+    box-shadow: 5px 5px 5px var(--headerBoxShadow);
+    transition: 2s;
 }
 .problemsCol img{
-    height: 150px;
-    width: 400px;
+    height: 281px;
+    width: 396px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+}
+.problemsColRow{
+    height: 200px;
+    width: 396px;
+    position: relative;
+    color: var(--grey);
+    /* background-color: #ff6f00; */
+}
+#problemsColRow2{
+    background-image: url(images/image.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 9.5em;
+}
+.problemsColRow .content{
+    height: 87px;
+    width: 264px;
+    margin: 5em 1em;
+}
+.problemsColRow .content2{
+    height: 60px;
+    width: 328px;
+}
+.problemsColRow h3{
+   font-size: 14px;
+    font-weight: 700;
+    line-height: 32px; 
+}
+.problemsColRow h1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.problemsColRow p{
+    font-size: 14px;
 }
