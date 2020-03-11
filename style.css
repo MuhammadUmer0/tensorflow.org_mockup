@@ -9,6 +9,7 @@
   --searchBg: #E8EAED;
   --btnLearnMoreBg: linear-gradient(to right, #ff6f00, #ff9100);
   --orange: #ff9100;
+  --p: #616161;
 }
 header {
   height: 48px;
@@ -161,6 +162,12 @@ h1{
     line-height: 40px;
     font-weight: 700;
 }
+p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: var(--p);
+}
 .about p {
     text-align: center;
 }
@@ -176,15 +183,26 @@ a:hover{
     color: var(--orange);
 }
 .features{
-    height: 300px;
+    height: 400px;
     width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--orange);
 }
 .featuresCol{
     height: 293px;
     width: 392px;
-    background-color: var(--grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--grey);
+}
+.featuresCol h3{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+}
+.featuresCol p{
+    text-align: center;
 }
