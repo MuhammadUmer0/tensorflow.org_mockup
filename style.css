@@ -143,6 +143,7 @@ main h1{
 }
 section{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -169,7 +170,21 @@ a{
     line-height: 20px;
     font-weight: 700;
     color: var(--grey);
+    transition: 0.3s;
 }
 a:hover{
     color: var(--orange);
+}
+.features{
+    height: 300px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--orange);
+}
+.featuresCol{
+    height: 293px;
+    width: 392px;
+    background-color: var(--grey);
 }
