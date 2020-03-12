@@ -211,6 +211,8 @@ a:hover{
     text-align: center;
 }
 .hr{
+    margin-top: 3em;
+    margin-bottom: 3em;
     width: 80%;
     border-top: 1px solid var(--hr);
 }
@@ -221,7 +223,6 @@ a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 2em;
 }
 .problemsRow{
     width: 100%;
@@ -286,5 +287,22 @@ a:hover{
     font-size: 14px;
 }
 .powered{
-    
+    height: 600px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.powered p{
+    width: 604px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: var(--p);
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-color: var(--orange);
 }
