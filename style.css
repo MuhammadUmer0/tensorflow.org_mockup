@@ -312,6 +312,9 @@ a:hover {
   justify-content: space-between;
   background-color: var(--orange);
 }
+.poweredRow a{
+  
+}
 .poweredRow .poweredCol {
   width: 392px;
   height: 414px;
