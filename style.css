@@ -309,11 +309,11 @@ a:hover {
   width: 1240px;
   height: 414px;
   display: flex;
+  margin-top: 2em;
   justify-content: space-between;
-  background-color: var(--orange);
 }
 .poweredRow a{
-  
+
 }
 .poweredRow .poweredCol {
   width: 392px;
@@ -322,8 +322,9 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: var(--grey);
+  box-shadow: 10px 10px 10px var(--headerBoxShadow);
 }
-
 .poweredCol img {
   height: 222px;
   width: 392px;
@@ -341,8 +342,6 @@ a:hover {
   flex-direction: column;
   justify-content: space-between;
   margin-top: 1.5em;
-  border: 1px solid white;
-
 }
 .poweredCol h3{
   font-size: 14px;
