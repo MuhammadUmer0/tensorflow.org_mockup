@@ -354,7 +354,7 @@ a:hover {
   line-height: 26px;
 }
 .partners{
-  height: 500px;
+  height: 470px;
   width: 824px;
   display: flex;
   justify-content: space-between;
@@ -377,6 +377,35 @@ a:hover {
 .partnersRow{
   height: 282px;
   width: 820px;
+  display: flex;
+  justify-content: space-between;
   background-color:brown;
   border-radius: 15px;
+}
+.partnersColLeft{
+  height: 281px;
+  width: 407px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: chartreuse;
+}
+.partnersColLeft img{
+  height: inherit;
+  width: inherit;
+}
+.partnersColRight{
+  height: 281px;
+  width: 407px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: chartreuse;
+}
+.partnersColRight .content{
+  height: 114px;
+  width: 328px;
+  margin: 2em 2em;
+  background-color: blue;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
 }
