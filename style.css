@@ -374,4 +374,9 @@ a:hover {
   align-items: center;
   text-align: center;
 }
-
+.partnersRow{
+  height: 282px;
+  width: 820px;
+  background-color:brown;
+  border-radius: 15px;
+}
