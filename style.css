@@ -354,5 +354,24 @@ a:hover {
   line-height: 26px;
 }
 .partners{
-  
+  height: 500px;
+  width: 824px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
+.partners h1{
+  width: 500px;
+  margin-bottom: .2em;
+}
+.partners .content{
+  height: 157px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
