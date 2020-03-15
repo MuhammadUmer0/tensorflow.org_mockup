@@ -550,3 +550,12 @@ a:hover {
   transition: 0s;
   margin: 2em 2em;
 }
+.support{
+  width: 90%;
+  height: 810px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: slateblue;
+}
