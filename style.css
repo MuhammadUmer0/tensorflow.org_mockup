@@ -423,15 +423,15 @@ a:hover {
   line-height: 32px;
   font-weight: 700;
 }
-.partnersColRight a{
+.partnersColRight a {
   margin-left: 2em;
   margin-top: 2em;
 }
-.partnersColRight a:hover{
+.partnersColRight a:hover {
   background-color: transparent;
   color: white;
 }
-.companies{
+.companies {
   height: 290px;
   width: 90%;
   margin-top: 3em;
@@ -440,17 +440,17 @@ a:hover {
   justify-content: space-around;
   align-items: center;
 }
-.companiesRow{
+.companiesRow {
   height: 90px;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.companiesRow img{
+.companiesRow img {
   height: 64px;
   width: 128px;
 }
-.btnShowMore{
+.btnShowMore {
   height: 46px;
   width: 129px;
   border: 2px solid var(--orange);
@@ -460,9 +460,9 @@ a:hover {
   font-weight: 700;
   background-color: white;
   color: var(--grey);
-  transition: .3s;
+  transition: 0.3s;
 }
-.btnShowMore:hover{
+.btnShowMore:hover {
   height: 46px;
   width: 129px;
   border: 2px solid var(--orange);
@@ -473,7 +473,7 @@ a:hover {
   background-color: var(--orange);
   color: white;
 }
-.news{
+.news {
   height: 770px;
   width: 90%;
   display: flex;
@@ -481,7 +481,7 @@ a:hover {
   justify-content: space-between;
   align-items: center;
 }
-.news h6{
+.news h6 {
   height: 52px;
   width: 600px;
   font-size: 16px;
@@ -489,14 +489,14 @@ a:hover {
   font-weight: 400;
   text-align: center;
 }
-.newsRow{
+.newsRow {
   height: 590px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.newsCol{
+.newsCol {
   height: 560px;
   width: 294px;
   border-radius: 15px;
@@ -505,22 +505,22 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: .2s;
+  transition: 0.2s;
   box-shadow: 0px 0px 20px silver;
 }
-.newsCol:hover{
+.newsCol:hover {
   background-color: var(--orange);
   color: white;
   cursor: pointer;
   box-shadow: 0px 0px 50px silver;
 }
-.newsCol img{
+.newsCol img {
   height: 163px;
   width: 294px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-.newsCol .content{
+.newsCol .content {
   width: 225px;
   height: 350px;
   display: flex;
@@ -528,56 +528,90 @@ a:hover {
   justify-content: space-around;
   margin: 1em 1em;
 }
-.date{
+.date {
   font-size: 15px;
   line-height: 26px;
   font-weight: 400;
 }
-.newsCol h3{
+.newsCol h3 {
   font-size: 20px;
   line-height: 26px;
   font-weight: 500px;
 }
-.newsCol p{
+.newsCol p {
   width: 255px;
   text-align: left;
   font-size: 14px;
   line-height: 22px;
   color: inherit;
 }
-.newsCol a{
+.newsCol a {
   color: inherit;
   transition: 0s;
   margin: 2em 2em;
 }
-.support{
+.support {
   width: 90%;
-  height: 810px;
+  height: 760px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
-  background-color: slateblue;
 }
-.support .review{
+.support h6 {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  width: 604px;
+  height: 52px;
+  color: var(--grey);
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: 0.5em;
+}
+.support .review {
   width: 951px;
-  height: 510px;
+  height: 480px;
+  margin-top: 2em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: snow;
+  align-items: center;
 }
-.review .reviewRow{
-  width: 100%;
+.review .reviewRow {
+  width: 925px;
   height: 225px;
-  background-color: tomato;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-between;
 }
-.reviewRow .reviewCol{
+#reviewRow2 {
+  width: 608px;
+  display: flex;
+  justify-content: space-between;
+}
+.reviewRow .reviewCol {
   width: 290px;
   height: 224px;
   border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: white;
+  box-shadow: 0px 0px 10px silver;
 }
-.reviewCol .content{
-  
+.reviewCol .content {
+  width: 223px;
+  height: 174px;
+  display: flex;
+  flex-direction: column;
+}
+.reviewCol h1 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 0.5em;
+}
+.reviewCol p {
+  font-size: 14px;
+  line-height: 22px;
 }
