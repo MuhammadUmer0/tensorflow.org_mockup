@@ -312,9 +312,7 @@ a:hover {
   margin-top: 2em;
   justify-content: space-between;
 }
-.poweredRow a{
 
-}
 .poweredRow .poweredCol {
   width: 392px;
   height: 414px;
@@ -323,7 +321,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   color: var(--grey);
-  box-shadow: 10px 10px 10px var(--headerBoxShadow);
+  box-shadow: 0px 0px 10px var(--headerBoxShadow);
 }
 .poweredCol img {
   height: 222px;
@@ -343,17 +341,17 @@ a:hover {
   justify-content: space-between;
   margin-top: 1.5em;
 }
-.poweredCol h3{
+.poweredCol h3 {
   font-size: 14px;
   line-height: 34px;
   font-weight: 500;
 }
-.poweredCol h1{
+.poweredCol h1 {
   font-size: 20px;
   font-weight: 500;
   line-height: 26px;
 }
-.partners{
+.partners {
   height: 470px;
   width: 824px;
   display: flex;
@@ -361,11 +359,11 @@ a:hover {
   flex-direction: column;
   align-items: center;
 }
-.partners h1{
+.partners h1 {
   width: 500px;
-  margin-bottom: .2em;
+  margin-bottom: 0.2em;
 }
-.partners .content{
+.partners .content {
   height: 157px;
   width: 600px;
   display: flex;
@@ -374,38 +372,62 @@ a:hover {
   align-items: center;
   text-align: center;
 }
-.partnersRow{
+.partnersRow {
   height: 282px;
   width: 820px;
   display: flex;
   justify-content: space-between;
-  background-color:brown;
+  background-color: white;
+  color: var(--grey);
   border-radius: 15px;
+  box-shadow: 0px 0px 10px var(--headerBoxShadow);
 }
-.partnersColLeft{
+.partnersRow a:hover {
+  background-color: var(--orange);
+  color: white;
+}
+.partnersColLeft {
   height: 281px;
   width: 407px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
-  background-color: chartreuse;
 }
-.partnersColLeft img{
+.partnersColLeft img {
   height: inherit;
   width: inherit;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
-.partnersColRight{
+.partnersColRight {
   height: 281px;
-  width: 407px;
+  width: 412px;
+  border-left: 1px solid silver;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: chartreuse;
 }
-.partnersColRight .content{
+.partnersColRight a:hover {
+  background-color: var(--orange);
+  /* color: white; */
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.partnersColRight .content {
   height: 114px;
   width: 328px;
-  margin: 2em 2em;
-  background-color: blue;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
+  margin: 3em 2em;
+  text-align: left;
+}
+.partnersColRight h1 {
+  width: 328px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+}
+.partnersColRight a{
+  margin-left: 2em;
+  margin-top: 2em;
+}
+.partnersColRight a:hover{
+  background-color: transparent;
+  color: white;
 }
