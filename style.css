@@ -431,3 +431,45 @@ a:hover {
   background-color: transparent;
   color: white;
 }
+.companies{
+  height: 290px;
+  width: 90%;
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.companiesRow{
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.companiesRow img{
+  height: 64px;
+  width: 128px;
+}
+.btnShowMore{
+  height: 46px;
+  width: 129px;
+  border: 2px solid var(--orange);
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  background-color: white;
+  color: var(--grey);
+  transition: .3s;
+}
+.btnShowMore:hover{
+  height: 46px;
+  width: 129px;
+  border: 2px solid var(--orange);
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  background-color: var(--orange);
+  color: white
+}
