@@ -471,5 +471,8 @@ a:hover {
   line-height: 20px;
   font-weight: 700;
   background-color: var(--orange);
-  color: white
+  color: white;
+}
+.news{
+
 }
