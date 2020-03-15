@@ -615,3 +615,30 @@ a:hover {
   font-size: 14px;
   line-height: 22px;
 }
+.getStarted{
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--orange);
+}
+.getStarted .content{
+  width: 583px;
+  height: 150px;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: yellow;
+}
+.getStarted h1{
+  color: white;
+  text-align: center;
+}
+.btnGetStarted{
+  width: 133px;
+  height: 46px;
+  background-color: white;
+  color: var(--orange);
+}
