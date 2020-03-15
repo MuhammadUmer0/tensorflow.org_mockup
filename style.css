@@ -615,30 +615,44 @@ a:hover {
   font-size: 14px;
   line-height: 22px;
 }
-.getStarted{
+.getStarted {
   height: 350px;
   width: 100%;
+  margin-top: 3em;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--orange);
 }
-.getStarted .content{
-  width: 583px;
-  height: 150px;  
+.getStarted .content {
+  width: 100%;
+  height: 350px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  background-color: yellow;
 }
-.getStarted h1{
+.getStarted h1 {
+  width: 650px;
   color: white;
   text-align: center;
 }
-.btnGetStarted{
+.btnGetStarted {
   width: 133px;
   height: 46px;
   background-color: white;
-  color: var(--orange);
+  color: var(--grey);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.btnGetStarted:hover {
+  background-color: var(--grey);
+  color: white;
+}
+.getStarted img {
+  width: 100%;
+  height: 200px;
 }
